@@ -1,0 +1,15 @@
+.main {
+	/* max-height: 550px; */
+	background-color: #292c2f;
+	color: white;
+	/* font-size: 38pt; */
+	text-align: center;
+	/* line-height: 550px; */
+	padding-bottom:20px;
+}
+@media (max-width: 880px) {
+    .main {
+		line-height: normal;
+		font-size: auto;
+	}
+}
