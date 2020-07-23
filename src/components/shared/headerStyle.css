@@ -1,14 +1,14 @@
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #292c2f;
     padding: 5px 10px;
   }
   
   /* Style the header links */
-  .header a {
+  .header .company-name a {
     float: left;
-    color: black;
+    color: #fff;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -80,4 +80,52 @@
   }
   .company-name{
     font: normal 36px 'Cookie', cursive;
+  }
+
+  .cart{
+    position:relative;
+    display:inline-block;
+    
+  }
+  .cart .cart-anchor{
+    border:2px solid #4CAF50;
+    color:black;
+    border-radius: 25px;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    margin: 4px 4px;
+    cursor: pointer;
+  }
+  .cart .cart-anchor:hover{
+    background-color: #4CAF50;
+    color:#fff;
+  }
+  .cart .cart-anchor .cart-no{
+    position:absolute;
+    top:-5px;
+    left:30px;
+    display:inline-block;
+    background-color: #ff6161;
+    border:1px solid black;
+    border-radius:7px;
+    width: 18px;
+    height: 18px;
+    color:#f0f0f0;
+    font-size: 12px;
+
+  }
+  .cart .cart-anchor i{
+    position: relative;
+    font-size: 20px;
+    display:inline-block;
+    top:5px;
+  }
+  .cart .cart-anchor span{
+    position: relative;
+    font-size: 14px;
+    display:inline-block;
+    top:7px;
+    font-weight: 645;
   }

@@ -1,11 +1,13 @@
 import React from 'react'
 import './mainStyle.css'
 import Product from './HomeComp/product'
+import Slider from './HomeComp/slider'
 function Home() {
     return (
         <React.Fragment>
-            <div class="main">
-            <Product/>
+            <div className="main">
+                <Slider/>
+                <Product/>
             </div>
         </React.Fragment>
     )

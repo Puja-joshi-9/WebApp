@@ -1,9 +1,10 @@
 .main {
 	/* max-height: 550px; */
-	background-color: #292c2f;
-	color: white;
-	/* font-size: 38pt; */
+	/* background-color: #292c2f; */
+	background-color: #f1f3f6;
+	/* color: white;	 */
 	text-align: center;
+	font-family: Arial,sans-serif;
 	/* line-height: 550px; */
 	padding-bottom:20px;
 }
